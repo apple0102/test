@@ -1,20 +1,17 @@
 package test1;
 
-public class Bicycle extends Vehicle{
-	Bicycle(){
-		brand = "";
-		maxSpeed = 0;
-		numOfWheels = 0;
-		oilContainer = 0;
-	}
+public class Bicycle implements Vehicle{
+	String brand = "Null";
+	double maxSpeed = 0;
+	double numOfWheels = 0;
 	
-	protected void setBrand(String brand){
+	public void setBrand(String brand){
 		this.brand = brand;
 	}
-	protected void setMaxSpeed(double maxSpeed){
+	public void setMaxSpeed(double maxSpeed){
 		this.maxSpeed = maxSpeed;
 	}
-	protected void setNumOfWheels(double numOfWheels){
+	public void setNumOfWheels(double numOfWheels){
 		this.numOfWheels = numOfWheels;
 	}
 }
