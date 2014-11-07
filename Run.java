@@ -7,7 +7,7 @@ public class Run{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Car car1 = new Car();
-		car1.setBrand("Toyota");
+		car1.setBrand("TOYOTA");
 		car1.setMaxSpeed(200);
 		car1.setNumOfWheels(4);
 		car1.setOilContainer(20);
