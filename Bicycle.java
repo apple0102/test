@@ -1,7 +1,7 @@
 package test1;
 
-public class Motor extends Vehicle{
-	Motor(){
+public class Bicycle extends Vehicle{
+	Bicycle(){
 		brand = "";
 		maxSpeed = 0;
 		numOfWheels = 0;
@@ -16,8 +16,5 @@ public class Motor extends Vehicle{
 	}
 	protected void setNumOfWheels(double numOfWheels){
 		this.numOfWheels = numOfWheels;
-	}
-	protected void setOilContainer(double oilContainer){
-		this.oilContainer = oilContainer;
 	}
 }

@@ -1,11 +1,11 @@
 package test1;
 
-public class Car extends VehicleA{
+public class Car extends Vehicle{
 	Car(){
-		brand = "Toyota";
-		maxSpeed = 180;
-		numOfWheels = 4;
-		oilContainer = 20;
+		brand = "Null";
+		maxSpeed = 0;
+		numOfWheels = 0;
+		oilContainer = 0;
 	}
 	
 	protected void setBrand(String brand){

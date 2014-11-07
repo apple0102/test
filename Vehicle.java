@@ -1,6 +1,6 @@
 package test1;
 
-abstract class VehicleA {
+abstract class Vehicle {
 	String brand;
 	double maxSpeed;
 	double numOfWheels;
@@ -9,5 +9,5 @@ abstract class VehicleA {
 	abstract void setBrand(String brand);
 	abstract void setMaxSpeed(double speed);
 	abstract void setNumOfWheels(double wheels);
-	abstract void setOilContainer(double container);
+	void setOilContainer(double container){};
 }
