@@ -2,18 +2,22 @@ package test1;
 
 public class Motor extends VehicleA{
 	Motor(){
+		brand = "Suzuki";
 		maxSpeed = 100;
 		numOfWheels = 2;
 		oilContainer = 6;
 	}
 	
-	protected void setMaxSpeed(double speed){
-		maxSpeed = speed;
+	protected void setBrand(String brand){
+		this.brand = brand;
 	}
-	protected void setNumOfWheels(double wheels){
-		this.numOfWheels = wheels;
+	protected void setMaxSpeed(double maxSpeed){
+		this.maxSpeed = maxSpeed;
 	}
-	protected void setOilContainer(double container){
-		this.oilContainer = container;
+	protected void setNumOfWheels(double numOfWheels){
+		this.numOfWheels = numOfWheels;
+	}
+	protected void setOilContainer(double oilContainer){
+		this.oilContainer = oilContainer;
 	}
 }
