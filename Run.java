@@ -23,6 +23,12 @@ public class Run{
 		bicycle1.setMaxSpeed(30);
 		bicycle1.setNumOfWheels(2);
 		
+		Truck truck1 = new Truck();
+		truck1.setBrand("MITSUBISHI");
+		truck1.setMaxSpeed(150);
+		truck1.setNumOfWheels(6);
+		truck1.setOilContainer(30);
+		
 		System.out.println("The brand of the car1 is: " + car1.brand);
 		System.out.println("The max speed of the car1 is: " + car1.maxSpeed + "(km/h)");
 		System.out.println("The wheels of the car1 is: " + car1.numOfWheels);
@@ -36,5 +42,10 @@ public class Run{
 		System.out.println("The brand of the bicycle1 is: " + bicycle1.brand);
 		System.out.println("The max speed of the bicycle1 is: " + bicycle1.maxSpeed + "(km/h)");
 		System.out.println("The wheels of the bicycle1 is: " + bicycle1.numOfWheels);
+		System.out.println("\n==============================\n");
+		System.out.println("The brand of the truck1 is: " + truck1.brand);
+		System.out.println("The max speed of the truck1 is: " + truck1.maxSpeed + "(km/h)");
+		System.out.println("The wheels of the truck1 is: " + truck1.numOfWheels);
+		System.out.println("The oil container of the truck1 is: " + truck1.oilContainer + "(l)");
 	}
 }

@@ -7,7 +7,7 @@ abstract class Vehicle {
 	double oilContainer;
 	
 	abstract void setBrand(String brand);
-	abstract void setMaxSpeed(double speed);
-	abstract void setNumOfWheels(double wheels);
-	void setOilContainer(double container){};
+	abstract void setMaxSpeed(double maxSpeed);
+	abstract void setNumOfWheels(double numOfWheels);
+	void setOilContainer(double oilContainer){};
 }
